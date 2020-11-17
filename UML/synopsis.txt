@@ -1,0 +1,43 @@
+
+inscription d'un utilisateur
+
+L’utilisateur arrive sur une page avec un bouton lui proposant de se
+connecter. En cliquant, il reçoit une invite pour entrer son login et son
+mot de passe. Après que l’utilisateur ai entré ses informations, le
+serveur le redirige soit vers la page de son profil si l’authentification a
+fonctionné, soit vers une page lui proposant de s’inscrire sinon.
+
+
+connection d'un utilisateur à son compte et édition d'un quizz:
+
+Une fois que l’utilisateur a entré ses données d'authentification sur la page, le
+serveur le redirige vers la page de son profil avec un bouton lui proposant de créer un quiz. 
+En cliquant, il recoit une clé de la part du serveur qu'il pourra donner au autre utilisateurs pour faire son quizz
+Après que l’utilisateur ai entré les questions le serveur le redirige vers la page de son profil en lui proposant 
+d'activer ou non son quizz.
+
+
+connection d'un utilisateur à un quizz:
+
+L’utilisateur arrive sur une page avec un bouton lui proposant de participer
+à un quizz. En cliquant, il reçoit une invite pour entrer son nom et prenom ainsi que
+la clés du quizz. Après que l’utilisateur ai entré ses informations, le
+serveur le redirige soit vers la page du quizz si les informations sont correct,
+soit vers la même page en lui proposant de réécrire la clés du quiz.
+Dans le cas ou le quiz n'est pas encore activé l'utilisateur est prévenus.
+
+
+réalisation du quizz par l'utilisateur:
+
+Une fois que l’utilisateur a entré ses informations pour participer a un quiz .
+le serveur le redirige vers celui ci l'utilisateur aura alors un temps imparti pour 
+répondre à toutes les questions,après qu'il ai repondu au question il recoit une clé de correction
+de la part du serveur.
+
+
+connection d'un utilisateur à la correction d'un quizz:
+
+Apres avoir finie un quizz et avoir obtenue une clé de correction. L’utilisateur est redirigé vers la page d'accueil avec un bouton lui proposant d'acceder à une page de correction. 
+En cliquant, il reçoit une invite pour entrer sa clé de correction. Apres que l’utilisateur ai entrée ses informations, le
+serveur le redirige soit vers la page de correction en lui indiquant son score et les reponses du quizz si l’authentification a
+fonctionné, soit il reste sur la meme page en lui indiquant que sa clé n'est pas valide.
